@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Sold Out</title>
+    <style>
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 90px 700px 50px;
+            grid-template-areas:"header header header"
+                                "main main main"
+                                "footer footer footer";
+            margin: auto;
+            width: auto;
+        }
+        .header {
+            grid-area: header;
+            font-size: 1.5em;
+            word-spacing: 80px;
+            font-size: 150%;
+            border-style: none none solid none;
+            padding: 5px;
+            box-shadow: 1px 10px 15px;
+        }
+
+        }
+
+        .main {
+            grid-area: main;
+            font-size: 3em;
+            align-content: center;
+            text-align: center;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        div1 {
+            margin: 55px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <p></p>
+        <a href="index.html">Main</a> <a href="shop.html">Shop</a>   <a href="information.html">Information</a>   <a href="aboutproject.html">About</a>   Etc.</p>
+    </div>
+    <div class="main">
+        <div1><img src="SoldOut.png" width="500" height="300"
+        </div1>
+        <p>Sorry, this product is sold out</p>
+    </div>
+    <div class="footer">
+        <p></p> <a href=""Jobs> Jobs
+
+    </div>
+</div>
+</body>
+</html>
